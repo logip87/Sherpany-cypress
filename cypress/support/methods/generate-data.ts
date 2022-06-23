@@ -1,4 +1,4 @@
-const faker = require("faker");
+import faker = require("faker");
 
 export type FakeUserData = ReturnType<typeof generateFakeUserData>
 
